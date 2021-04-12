@@ -1,2 +1,3 @@
 # cofeelanding
-Animations &amp; Cofee
+## Animations &amp; Nature
+* CSS &amp; gsap library
