@@ -3,18 +3,16 @@
 }
 
 body {
+    background-color: rgb(166, 176, 177);
     margin: 0;
     height: 100vh;
-}
-body:hover .wrapper{
-    clip-path: polygon(25% 25%, 75% 20%, 75% 88%, 25% 88%);
 }
 
 .wrapper {
     height: 100vh;
     position: absolute;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-    transition: clip-path 2s;
+    transition: clip-path 1s;
     width: 100%;
 
     .content {

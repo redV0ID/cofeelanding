@@ -5,16 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
     <title>Document</title>
 </head>
 <body>
     <div class="wrapper">
         <div class="content">
-            <h1>mmmmm</h1>
+            <h1>VKUSNO</h1>
         </div>
         <div class="image">
-            
+
         </div>
     </div>
+    <script>
+        const time = gsap.timeline();
+        const wrapper = document.querySelector(".wrapper");
+        time.to(wrapper, {
+            clipPath: "polygon(50% 0, 50% 0, 100% 100%, 0% 100%)"
+        });
+        time.to(wrapper, {
+            clipPath: "polygon(50% 0, 50% 0, 100% 100%, 0% 100%)"
+        });
+        wrapper.addEventListener("mouseover", () => {
+            time.play();
+        });
+    </script>
 </body>
 </html>
