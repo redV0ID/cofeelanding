@@ -29,7 +29,7 @@ body {
   place-items: center;
   height: 100vh;
   width: 100%;
-  color: burlywood;
+  color: #91724A;
 }
 
 .wrapper .content h1, .wrapper .content-2 h1, .wrapper-2 .content h1, .wrapper-2 .content-2 h1 {
@@ -38,7 +38,7 @@ body {
 
 .wrapper .image, .wrapper-2 .image {
   background: url("../img/backgr.jpg");
-  background-size: 100vw 90vw;
+  background-size: 100vw 80vw;
   background-repeat: no-repeat;
   height: 100vh;
 }
@@ -47,9 +47,13 @@ body {
   z-index: -1;
 }
 
+.wrapper-2 .content h1 {
+  color: #91724A;
+}
+
 .wrapper-2 .image {
   background: url("../img/baltic_sea.jpg");
-  background-size: 100vw 90vw;
+  background-size: 100vw 100vw;
   background-repeat: no-repeat;
 }
 /*# sourceMappingURL=style.css.map */

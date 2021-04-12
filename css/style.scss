@@ -22,16 +22,17 @@ body {
         place-items: center;
         height: 100vh;
         width: 100%;
-        color: burlywood;
+        color: #91724A;
 
         h1 {
             font-size: 4rem;
         }
+  
     }
 
     .image {
         background: url("../img/backgr.jpg");
-        background-size: 100vw 90vw;
+        background-size: 100vw 80vw;
         background-repeat: no-repeat;
         height: 100vh;
     }
@@ -39,11 +40,15 @@ body {
 
 .wrapper-2 {
     z-index: -1;
-
-
+    .content {
+        h1 {
+            color: #91724A;
+        }
+    
+    }
     .image {
         background: url("../img/baltic_sea.jpg");
-        background-size: 100vw 90vw;
+        background-size: 100vw 100vw;
         background-repeat: no-repeat;
     }
 }
