@@ -8,14 +8,14 @@ body {
     height: 100vh;
 }
 
-.wrapper {
+.wrapper, .wrapper-2 {
     height: 100vh;
     position: absolute;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     transition: clip-path 1s;
     width: 100%;
 
-    .content {
+    .content, .content-2 {
         position: absolute;
         z-index: 1;
         display: grid;
@@ -34,5 +34,16 @@ body {
         background-size: 100vw 90vw;
         background-repeat: no-repeat;
         height: 100vh;
+    }
+}
+
+.wrapper-2 {
+    z-index: -1;
+
+
+    .image {
+        background: url("../img/baltic_sea.jpg");
+        background-size: 100vw 60vw;
+        background-repeat: no-repeat;
     }
 }

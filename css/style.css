@@ -1,1 +1,55 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #a6b0b1;
+  margin: 0;
+  height: 100vh;
+}
+
+.wrapper, .wrapper-2 {
+  height: 100vh;
+  position: absolute;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  -webkit-transition: -webkit-clip-path 1s;
+  transition: -webkit-clip-path 1s;
+  transition: clip-path 1s;
+  transition: clip-path 1s, -webkit-clip-path 1s;
+  width: 100%;
+}
+
+.wrapper .content, .wrapper .content-2, .wrapper-2 .content, .wrapper-2 .content-2 {
+  position: absolute;
+  z-index: 1;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100%;
+  color: burlywood;
+}
+
+.wrapper .content h1, .wrapper .content-2 h1, .wrapper-2 .content h1, .wrapper-2 .content-2 h1 {
+  font-size: 4rem;
+}
+
+.wrapper .image, .wrapper-2 .image {
+  background: url("../img/backgr.jpg");
+  background-size: 100vw 90vw;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.wrapper-2 {
+  z-index: -1;
+}
+
+.wrapper-2 .image {
+  background: url("../img/baltic_sea.jpg");
+  background-size: 100vw 60vw;
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=style.css.map */
